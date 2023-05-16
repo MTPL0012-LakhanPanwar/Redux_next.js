@@ -1,0 +1,262 @@
+.root {
+    background-color: #FFF5EE;
+    padding: 1rem 20rem;
+}
+
+.icon {
+    display: flex;
+    position: absolute;
+    width: 27px;
+    height: 7px;
+    left: 7px;
+    top: 35%;
+    bottom: 30%;
+    background: #FAFAFA;
+}
+
+.cat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 4px;
+    width: 155px;
+    height: 46px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cat span {
+    width: 119px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F0F0F0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.master {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 8px;
+    width: 92px;
+    height: 46px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.master span {
+    width: 76px;
+    height: 22px;
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F0F0F0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 8px;
+    width: 67px;
+    height: 46px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.event span {
+    width: 51px;
+    height: 22px;
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F0F0F0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.head {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 28px;
+    color: #164E5A;
+    flex: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.011em;
+}
+
+.t-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-top: 30px;
+    width: auto;
+    height: 28px;
+    color: #164E5A;
+    flex: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.011em;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 'auto';
+    height: 'auto';
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.t_title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.content {
+    width: auto;
+    height: 'auto';
+}
+
+.top {
+    margin-top: -12px;
+}
+
+.s_title {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: auto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #164E5A;
+}
+
+.sub_title {
+    width: auto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #164E5A;
+}
+
+.s_content {
+    width: auto;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.next-line {
+    padding-left: 20px;
+    width: auto;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.privacy {
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.third-line {
+    margin-left: 22%;
+    font-size: 18px;
+    padding-left: 55px;
+}
+
+.para3_c {
+    margin-bottom: 12px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.num_list {
+    width: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1080px) {
+    .root {
+        padding: 1.5rem;
+    }
+}

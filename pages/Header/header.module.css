@@ -1,0 +1,89 @@
+.header {
+    background: #164e5a;
+    height: 6rem;
+    /* width: 72rem; */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    /* margin-bottom: 1rem; */
+  }
+  .logo {
+    margin-left: -2%;
+    cursor: pointer;
+  }
+
+  .logo img {
+    height: 5rem;
+  }
+
+  .btn {
+    background: #f7de66;
+    color: #164E5A;
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: 7rem;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .header p,
+  .header svg {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .navigations {
+    flex-basis: 60vw;
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .job-categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ .go_premium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frameSec{
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 1080px) {
+    .header {
+      flex-direction: column;
+      padding: 2rem;
+      gap: 1rem;
+      height: auto;
+    }
+    .header p{
+      font-size: 1rem;
+    }
+    .navigations {
+      flex-basis: 16vw;
+    }
+    .carousel {
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    padding: 0px 10px;
+    }
+    }
